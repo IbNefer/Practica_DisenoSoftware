@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    position: relative;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.button1 {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: flex;
+    padding: 15px 30px;
+    background-color: none;
+    max-width: 200px;
+    justify-content: space-between;
+}
+
+.sign-up {
+    width: 80px;
+    padding: 10px;
+    color: aquamarine;
+}
+
+.sign-in {
+    width: 80px;
+    padding: 10px;
+    color: aquamarine;
+}
+
+main {
+    padding: 2rem;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.producto {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+.producto h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+}
+
+.producto p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
